@@ -1,4 +1,4 @@
-# Python virtual environment
+# Virtual environment
 venv/
 .venv/
 
@@ -7,17 +7,13 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints/
 
 # Environment / secrets
 .env
 .env.*
 !.env.example
-
-# Data files
-data/*
-!data/.gitkeep
 
 # OS files
 .DS_Store
